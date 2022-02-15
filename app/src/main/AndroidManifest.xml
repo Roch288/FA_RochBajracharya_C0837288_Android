@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lambton.FA_RochBajracharya_C0837288_android">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name=".App"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Place2Visit">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCY94uIiTMIUOMAXioykUDb3vAYWm1CIJA" />
+        <activity
+            android:name="com.lambton.FA_RochBajracharya_C0837288_android.ui.MainActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.AddNewPlaceActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.PlaceListActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ui.EditPlaceActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

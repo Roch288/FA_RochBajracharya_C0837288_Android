@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1045893936848",
+    "project_id": "place2visit-2295c",
+    "storage_bucket": "place2visit-2295c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045893936848:android:db9683b8833691171510d5",
+        "android_client_info": {
+          "package_name": "com.lambton.FA_RochBajracharya_C0837288_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045893936848-6bp196t8g74ggpjdqh39sj9vicajq0mk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY94uIiTMIUOMAXioykUDb3vAYWm1CIJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045893936848-6bp196t8g74ggpjdqh39sj9vicajq0mk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

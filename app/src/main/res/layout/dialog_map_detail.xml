@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cv_isFav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favorite" />
+
+    <CheckBox
+        android:id="@+id/cv_isCompleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Completed" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:textAllCaps="false" />
+
+</LinearLayout>
